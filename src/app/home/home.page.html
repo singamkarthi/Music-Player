@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="end">
+            <ion-menu-button>
+                <ion-icon name="filter"></ion-icon>
+            </ion-menu-button>
+        </ion-buttons>
+        <ion-title class="ion-text-center">Favourite</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="">
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
+<ion-footer>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="4" class="ion-text-center selected">
+                <ion-icon name="heart" (click)="goto('')"></ion-icon>
+            </ion-col>
+            <ion-col size="4" class="ion-text-center">
+                <ion-icon name="musical-note" (click)="goto('playback')"></ion-icon>
+            </ion-col>
+            <ion-col size="4" class="ion-text-center">
+                <ion-icon name="cog" (click)="goto('settings')"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-footer>
+<!-- #0093d9 -->
